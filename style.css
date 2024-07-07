@@ -17,7 +17,7 @@ body {
   height: 837px;
   /* border: 2px solid red; */
   background: #fff8f3;
-  background-image: url(./portfolio-resources-main/images/developer.png), url(./portfolio-resources-main/images/header_bg.png);
+  background-image: url(portfolio-resources-main/images/developer.png), url(portfolio-resources-main/images/header_bg.png);
   background-repeat: no-repeat;
   background-position: 50px, right bottom;
  
