@@ -113,13 +113,16 @@ nav > div > p {
 .about-me-section {
   margin: 0 auto;
   width: 1140px;
-  height: 550px;
   /* border: 2px solid red; */
   background-color: #fff8f3;
+  padding: 131px 0px;
+
 }
 
 .about-me-des {
-  padding: 131px 156px;
+  margin: 0 auto;
+  width: 830px;
+  background-color: white;
 }
 
 .about-me-des h3 {
@@ -272,7 +275,7 @@ hr {
 .footer-contrainer {
   margin: 0 auto;
   width: 1600px;
-  height: 780px;
+  /* height: 780px; */
 }
 
 .footer-section {
@@ -325,4 +328,18 @@ hr {
   border-radius: 5px;
   background: var(--White-Color, #fff);
   margin-bottom: 24px;
+}
+
+.form-text::placeholder {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 30px;
+}
+
+.textarea-text::placeholder {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 18px 30px;
 }
