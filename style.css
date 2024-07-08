@@ -113,11 +113,11 @@ nav > div > p {
   width: 1140px;
   height: 550px;
   /* border: 2px solid red; */
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
 }
 
 .about-me-des {
-  padding: 131px 156px; 
+  padding: 131px 156px;
 }
 
 .about-me-des h3 {
@@ -126,7 +126,6 @@ nav > div > p {
   font-weight: 700px;
   margin-bottom: 30px;
   text-align: center;
- 
 }
 
 .about-me-des p {
@@ -135,18 +134,74 @@ nav > div > p {
   font-weight: 400px;
   margin-bottom: 30px;
   text-align: center;
-  
 }
 
-.about-me-name-info{
+.about-me-name-info {
   display: flex;
   justify-content: space-around;
-  
 }
 
-.about-me-name-info h4{
+.about-me-name-info h4 {
   text-align: center;
 }
 
+/* What i do section */
 
+.what-i-do-section {
+  margin-top: 130px;
+}
 
+.what-i-do-section h3 {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.what-i-do-section p {
+  width: 909px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400px;
+  margin-bottom: 50px;
+}
+
+.what-i-do-paragraph {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* card section */
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+.card {
+  width: 195px;
+  height: 335px;
+  padding: 30px 33px;
+  margin-right: 24px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-img {
+  margin-bottom: 30px;
+}
+
+.skill-name {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cards-section p {
+  width: 201px;
+}
