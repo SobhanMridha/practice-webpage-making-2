@@ -17,10 +17,11 @@ body {
   height: 837px;
   /* border: 2px solid red; */
   background: #fff8f3;
-  background-image: url(portfolio-resources-main/images/developer.png), url(portfolio-resources-main/images/header_bg.png);
+  background-image: url(portfolio-resources-main/images/developer.png),
+    url(portfolio-resources-main/images/header_bg.png);
   background-repeat: no-repeat;
   background-position: 50px, right bottom;
- 
+  margin-bottom: 130px;
 }
 
 .nav-bar {
@@ -101,6 +102,51 @@ nav > div > p {
 }
 
 .img-fix {
-  margin-top: 46px;
+  margin-top: 49px;
   margin-left: 100px;
 }
+
+/* About me section */
+
+.about-me-section {
+  margin: 0 auto;
+  width: 1140px;
+  height: 550px;
+  /* border: 2px solid red; */
+  background-color: #FFF8F3;
+}
+
+.about-me-des {
+  padding: 131px 156px; 
+}
+
+.about-me-des h3 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700px;
+  margin-bottom: 30px;
+  text-align: center;
+ 
+}
+
+.about-me-des p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400px;
+  margin-bottom: 30px;
+  text-align: center;
+  
+}
+
+.about-me-name-info{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.about-me-name-info h4{
+  text-align: center;
+}
+
+
+
